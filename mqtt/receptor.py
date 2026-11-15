@@ -11,7 +11,7 @@ PORT = 1883
 USUARIO = "pi"
 
 # Conservar aqui la contrasena MQTT existente
-CONTRASENA = "nasa2026$"
+CONTRASENA = "CONFIGURAR_LOCALMENTE"
 
 TOPICO = "nasa/astronautas/#"
 
