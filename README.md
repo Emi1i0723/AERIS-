@@ -118,7 +118,7 @@ In commitment to scientific integrity and engineering transparency before the NA
 
 ## 5. Repository Structure
 
-```text
+
 AERIS/
 ├── docs/                       # Master research documentation (V4), OSDMP, and manuals
 ├── assets/                     # Infographics, architecture diagrams, and SI-watermarked media
@@ -131,9 +131,8 @@ AERIS/
 ├── CITATION.cff                # One-click scientific citation metadata
 ├── README.md                   # General project overview and NASA Space Apps documentation
 └── LICENSE                     # Full legal text of the CC BY 4.0 & MIT Dual Licensing
-
-
 ----
+
 **Note.**Because lack of time We decided to simplified our repository structure in only one file with code, a link to our
 landing page and our Social Media. In order to keep this structure and have a clear way to keep developing AERIS.
 
