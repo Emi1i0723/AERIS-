@@ -2,7 +2,7 @@
 # AERIS
 
 [![CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-![Estado del Proyecto](https://img.shields.io/badge/Estado-En_Desarrollo-blue.svg)
+![Estado del Proyecto](https://img.shields.io/badge/Status-In Development-blue.svg)
 
 **[Breve descripción de una línea sobre qué es AERIS y qué problema resuelve.]**
 
