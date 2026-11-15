@@ -118,7 +118,7 @@ In commitment to scientific integrity and engineering transparency before the NA
 
 ## 5. Repository Structure
 
-
+```text
 AERIS/
 ├── docs/                       # Master research documentation (V4), OSDMP, and manuals
 ├── assets/                     # Infographics, architecture diagrams, and SI-watermarked media
