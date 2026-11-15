@@ -4,7 +4,7 @@
 [![CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 ![Project Status](https://img.shields.io/badge/Status-In_Development-blue.svg)
 
-**AERIS** is an autonomous edge AI and digital twin ecosystem that solves the Earth-Independent Medical Operations **(EIMO)** challenge by providing non-medical space crews with step-by-step, completely offline preventive healthcare guidance without relying on a connection to Earth.
+**AERIS** is an AI-powered astronaut health monitoring system that uses wearable sensors and a personalized digital twin to track physiological conditions in real time. It detects potential anomalies, provides early warnings, and offers preventive guidance to enhance astronaut safety during space missions.
 
 ---
 
