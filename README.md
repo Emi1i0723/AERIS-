@@ -400,7 +400,7 @@ The bibliography below preserves the team's original reference collection for fu
 | Manuel Mendoza Pino | Technical lead, documentation, and prototype design |
 | Emilio Cervera Uicab | Team lead, documentation, and visuals |
 | Ian Mendoza Ancona | 3D design and documentation |
-| Jorge Guitérrez Jacobo | ML and software design |
+| Jorge A. Gutiérrez Jacobo | ML and software design |
 | Eduardo Domenzain Uh | Visuals lead and pitch |
 
 ## Contributing and licensing
