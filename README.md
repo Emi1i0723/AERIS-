@@ -4,7 +4,7 @@
 [![CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 ![Project Status](https://img.shields.io/badge/Status-In_Development-blue.svg)
 
-**[Brief one-line description of what AERIS is and what problem it solves.]**
+**AERIS** is an autonomous edge AI and digital twin ecosystem that solves the Earth-Independent Medical Operations **(EIMO)** challenge by providing non-medical space crews with step-by-step, completely offline preventive healthcare guidance without relying on a connection to Earth.
 
 ---
 
