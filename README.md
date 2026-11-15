@@ -132,4 +132,68 @@ AERIS/
 ├── README.md                   # General project overview and NASA Space Apps documentation
 └── LICENSE                     # Full legal text of the CC BY 4.0 & MIT Dual Licensing
 
-**Note.**Because lack of time We decided to simplified our repository structure in only one file with code, a link to our landing page and our Social Media. In order to keep this structure and have a clear way to keep developing AERIS.
+**Note.**Because lack of time We decided to simplified our repository structure in only one file with code, a link to our
+landing page and our Social Media. In order to keep this structure and have a clear way to keep developing AERIS.
+----
+## 6 TEAM AERIS 
+This is the official 5 integrants of team AERIS
+- Manuel Mendoza Pino Tech Leader, documentation and prototype design
+- Emilio Cervera Uicab Team Leader, documentation and visuals
+- Ian Mendoza Ancona 3D designer and documentation
+- Jorge Guitérrez Jacobo ML expert and software designer 
+- Eduardo Domenzain Uh Visuals Leader and Pitch
+---
+## DATA USED (NASA AND AGENCIES REFERENCES)
+
+### NASA
+
+#### HRP (Human Research Program & EIMO Clinical Standards)
+- NASA Human Research Program (HRP) 5 Hazards of Human Spaceflight -- https://www.nasa.gov/hrp/hazards/
+- NASA Human Research Program (HRP) Overview -- https://www.nasa.gov/hrp/
+- NASA HRP Hazard 1: Space Radiation -- https://www.nasa.gov/hrp/hazard-space-radiation/
+- NASA HRP Hazard 2: Isolation and Confinement -- https://www.nasa.gov/hrp/hazard-isolation-and-confinement/
+- NASA HRP Hazard 3: Distance from Earth -- https://www.nasa.gov/hrp/hazard-distance-from-earth/
+- NASA HRP Hazard 4: Gravity Fields -- https://www.nasa.gov/hrp/hazard-gravity-fields/
+- NASA HRP Hazard 5: Hostile/Closed Environments -- https://www.nasa.gov/hrp/hazard-hostile-closed-environments/
+- A Clinical Decision Support System for Earth-independent Medical Operations -- https://www.nasa.gov/centers-and-facilities/ames/ames-science/ames-space-biosciences/a-clinical-decision-support-system-for-earth-independent-medical-operations/
+- NASA Spaceflight Human-System Standard: Volume 1: Crew Health -- https://www.nasa.gov/wp-content/uploads/2023/03/nasa-std-3001-vol-1-rev-c-with-signature.pdf
+- Human System Risk Management Plan, JSC-66705 Rev. A -- https://ntrs.nasa.gov/citations/20205008887
+- NASA Human Research Roadmap (HRR) -- https://humanresearchroadmap.nasa.gov/
+- Risks of human spaceflight -- https://www.nasa.gov/hrp/risks/
+- Risk of spaceflight associated neuro-ocular syndrome (SANS) -- https://www.nasa.gov/reference/risk-of-spaceflight-associated-neuro-ocular-syndrome-sans/
+- Risk of hypoxia -- https://www.nasa.gov/reference/risk-of-hypoxia/
+- Risk of reduced cardiorespiratory and musculoskeletal fitness -- https://www.nasa.gov/reference/risk-of-reduced-cardiorespiratory-and-musculoskeletal-fitness/
+
+#### OSDR (Open Science Data Repository & Open Science Plan)
+- About OSDR & Biological and Physical Sciences Data Repository -- https://science.nasa.gov/biological-physical/data/osdr/
+- ROSES Open Science and Data Management Plan -- https://science.nasa.gov/researchers/sara/faqs/osdmp/
+
+#### LSDA (Life Sciences Data Archive / Commercial & Physical Sciences Repositories)
+- NASA's Repository Supports Research of Commercial Astronaut Health -- https://science.nasa.gov/humans-in-space/nasas-repository-supports-research-of-commercial-astronaut-health/?utm_source=
+- History and Mission of Physical Science Informatics -- https://science.nasa.gov/physical-sciences-informatics-psi/history-of-physical-science-informatics/
+- The NASA Task Book -- https://taskbook.nasaprs.com/
+
+#### LSAH (Lifetime Surveillance of Astronaut Health / Longitudinal & Biomedical Records)
+- TREAT Astronauts Act -- https://www.nasa.gov/hhp/treat-astronauts-act/
+- NASA Human Health and Performance Directorate (HH&P) - Human System Risks Registry -- https://www.nasa.gov/hhp/human-system-risks/
+- The Human Body in Space -- https://www.nasa.gov/humans-in-space/the-human-body-in-space/
+- Biomedical Results of Apollo -- https://history.nasa.gov/SP-368/s2ch3.htm
+- NASA Space Cancer Risk Model: 2020 Operational Implementation -- https://ntrs.nasa.gov/citations/20210013314
+
+---
+
+### ESA (European Space Agency)
+- Exposome Signature: A multi-system view of human adaptation to spaceflight -- https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Exposome_Signature_A_multi_system_view_of_human_adaptation_to_spaceflight
+- RelaxPro: Helping astronauts sleep and manage stress in space -- https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/RelaxPro_Helping_astronauts_sleep_and_manage_stress_in_space
+- EasyMotion-2: Using electrical stimulation to preserve astronaut muscles in space -- https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/EasyMotion_2_Using_electrical_stimulation_to_preserve_astronaut_muscles_in_space
+- New European exercise device begins testing with first rope-pulling workout in space -- https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/New_European_exercise_device_begins_testing_with_first_rope-pulling_workout_in_space
+- Space for Everyone — Module 7: Space Business, Lesson 1: Technology on Earth -- https://learn.esa.int/explore/space-everyone
+
+---
+
+### CSA (Canadian Space Agency)
+- Little transistor records radiation levels (EVARM) -- https://www.asc-csa.gc.ca/eng/iss/evarm.asp
+- MOSFET radiation monitoring system and Matroshka-R -- https://www.asc-csa.gc.ca/eng/astronauts/space-medicine/mosfet.asp
+- Effects of space on the body -- https://www.asc-csa.gc.ca/eng/astronauts/living-in-space/effects-of-space-on-the-body.asp
+- Monitoring radiation for astronaut health -- https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp
+- Chris Hadfield explains the Radi-N2 experiment (Video) -- https://www.asc-csa.gc.ca/eng/multimedia/search/video/17883#transcript
