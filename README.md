@@ -113,29 +113,7 @@ In commitment to scientific integrity and engineering transparency before the NA
   - Consolidation of the `SQLite` persistence schema, Experimental Digital Twin evaluator, alert publisher service, and visual monitor interface onto the single unified Raspberry Pi node for end-to-end live testing.
 - **🔭 Future Roadmap (Outside Current Verified Prototype Scope):**
   - Local RAG assistant (*"Brag"* with offline medical manuals), 80/20 Random Forest predictive model validation, hardware oscillometric blood pressure & true R-R HRV capture, direct radiation dosimetry hardware, and 30-second local flash store-and-forward buffering on the ESP32 during Wi-Fi drops.
-
 ---
-
-## 5. Repository Structure
-
-```text
-AERIS/
-├── docs/                       # Master research documentation (V4), OSDMP, and manuals
-├── assets/                     # Infographics, architecture diagrams, and SI-watermarked media
-├── src/                        # Source code and executable scripts
-│   ├── firmware_esp32/         # Arduino/C++ firmware for sensors, TFT, buzzer & MQTT
-│   ├── server_rpi/             # Python MQTT receptor.py, generador.py, SQLite & Digital Twin
-│   └── notebooks/              # Reproducible Jupyter Notebooks (Open Code - MIT License)
-├── CODE_OF_CONDUCT.md          # Community standards (NASA Open Science compliant)
-├── CONTRIBUTING.md             # Guidelines for open collaboration
-├── CITATION.cff                # One-click scientific citation metadata
-├── README.md                   # General project overview and NASA Space Apps documentation
-└── LICENSE                     # Full legal text of the CC BY 4.0 & MIT Dual Licensing
-
----
-
-**Note.**Because lack of time We decided to simplified our repository structure in only one file with code, a link to our
-landing page and our Social Media. In order to keep this structure and have a clear way to keep developing AERIS.
 
 ## 6 TEAM AERIS 
 This is the official 5 integrants of team AERIS
@@ -199,3 +177,30 @@ This is the official 5 integrants of team AERIS
 - Effects of space on the body -- https://www.asc-csa.gc.ca/eng/astronauts/living-in-space/effects-of-space-on-the-body.asp
 - Monitoring radiation for astronaut health -- https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp
 - Chris Hadfield explains the Radi-N2 experiment (Video) -- https://www.asc-csa.gc.ca/eng/multimedia/search/video/17883#transcript
+
+
+
+---
+
+## 5. Repository Structure
+
+```text
+AERIS/
+├── docs/                       # Master research documentation (V4), OSDMP, and manuals
+├── assets/                     # Infographics, architecture diagrams, and SI-watermarked media
+├── src/                        # Source code and executable scripts
+│   ├── firmware_esp32/         # Arduino/C++ firmware for sensors, TFT, buzzer & MQTT
+│   ├── server_rpi/             # Python MQTT receptor.py, generador.py, SQLite & Digital Twin
+│   └── notebooks/              # Reproducible Jupyter Notebooks (Open Code - MIT License)
+├── CODE_OF_CONDUCT.md          # Community standards (NASA Open Science compliant)
+├── CONTRIBUTING.md             # Guidelines for open collaboration
+├── CITATION.cff                # One-click scientific citation metadata
+├── README.md                   # General project overview and NASA Space Apps documentation
+└── LICENSE                     # Full legal text of the CC BY 4.0 & MIT Dual Licensing
+
+---
+
+**Note.**Because lack of time We decided to simplified our repository structure in only one file with code, a link to our
+landing page and our Social Media. In order to keep this structure and have a clear way to keep developing AERIS.
+
+
