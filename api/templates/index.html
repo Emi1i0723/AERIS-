@@ -530,7 +530,26 @@ function render(){
  $('hrStatus').textContent=row?'Lectura recibida':'Sin lectura reciente';$('spo2Status').textContent=row?'Dato recibido':'Sin lectura reciente';$('tempStatus').textContent=row?'Temperatura del sensor':'Sin lectura reciente';
  $('historyTitle').textContent='Astronauta 0'+id+' · historial API';$('historyNote').textContent='Mediciones recibidas desde SQLite · ventana '+windowSeconds/60+' min. Sin datos sintéticos del navegador.';
  $('stream').textContent=row?'Mediciones recientes':'Esperando datos';$('twinName').textContent='Astronauta 0'+id;$('twinSubtitle').textContent='Ermon · detección preventiva · ';document.querySelector('.twin .tag').textContent='TWIN / 0'+id;
- $('arrhBadge').hidden=true;for(const key of ['hr','spo2','temp']){$('delta-'+key).textContent='—';$('delta-'+key).className='cmp-delta muted';$('delta-'+key+'-ref').textContent='Referencia individual no informada';}
+ $('arrhBadge').hidden=true;for (const [key, variable, unit] of [
+  ['hr', 'frecuencia_cardiaca', 'bpm'],
+  ['spo2', 'spo2', 'pp'],
+  ['temp', 'temperatura', '°C']
+]) {
+  const result = p.ermon?.analisis?.[variable];
+  const delta = $('delta-' + key);
+  const reference = $('delta-' + key + '-ref');
+  const sameReading = row && p.ermon?.ultimo_registro === row.id;
+  const available = sameReading && finite(result?.diferencia) && finite(result?.media_referencia);
+  delta.className = 'cmp-delta muted';
+  if (available) {
+    delta.textContent = (result.diferencia > 0 ? '+' : '') + format(result.diferencia, 1) + ' ' + unit;
+    delta.className = 'cmp-delta ' + (['desviacion_detectada', 'variacion_sin_referencia'].includes(result.estado) ? 'warn' : 'ok');
+    reference.textContent = 'Promedio previo: ' + format(result.media_referencia, 1) + ' ' + (key === 'spo2' ? '%' : unit);
+  } else {
+    delta.textContent = '—';
+    reference.textContent = !row ? 'Sin lectura reciente' : !sameReading ? 'Esperando análisis de esta lectura' : result?.estado === 'datos_insuficientes' ? 'Historial insuficiente (mínimo 10 muestras)' : 'Referencia no disponible';
+  }
+}
  $('delta-posture').textContent='No calculada';$('delta-posture').className='cmp-delta muted';$('delta-posture-ref').textContent='No se infiere postura';
  const ml=e.ml||{};const score=typeof ml==='object'?(ml.distancia??ml.score??ml.puntuacion):null;
  $('modelText').textContent='Modelo experimental · '+(e.mlState||'sin clasificación');$('twinFooter').textContent='Análisis estadístico y ML no clínico; no constituye diagnóstico médico.';
