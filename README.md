@@ -132,9 +132,11 @@ AERIS/
 ├── README.md                   # General project overview and NASA Space Apps documentation
 └── LICENSE                     # Full legal text of the CC BY 4.0 & MIT Dual Licensing
 
+
+----
 **Note.**Because lack of time We decided to simplified our repository structure in only one file with code, a link to our
 landing page and our Social Media. In order to keep this structure and have a clear way to keep developing AERIS.
-----
+
 ## 6 TEAM AERIS 
 This is the official 5 integrants of team AERIS
 - Manuel Mendoza Pino Tech Leader, documentation and prototype design
