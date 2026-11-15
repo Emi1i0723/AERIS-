@@ -30,7 +30,7 @@
 
 ### 🛰️ What did you develop?
 **TEAM AERIS** developed **AER-Mon** (AERIS Monitoring), an integrated hardware-software ecosystem running 100% locally (*Zero Cloud Dependency*). It consists of:
-1. **AERIS Smart Band Prototype (Edge Hardware Node):** An ESP32-based wearable node integrating optical, thermal, and kinematic sensors (`MAX30102`, `DS18B20`, `MPU6050`) with an onboard TFT screen and acoustic buzzer for immediate crew feedback.
+1. **AERIS Smart device Prototype (Edge Hardware Node):** An ESP32-based wearable node integrating optical, thermal, and kinematic sensors (`MAX30102`, `DS18B20`, `MPU6050`) with an onboard TFT screen and acoustic buzzer for immediate crew feedback.
 2. **Central Habitat Server & Experimental Digital Twin (Raspberry Pi Node):** A unified local server running an MQTT broker (`Mosquitto`), a normalized `SQLite` database, and an individualized Digital Twin engine that compares real-time telemetry against personalized baseline profiles rather than generic population averages.
 
 ### 🎯 How does it address the challenge?
@@ -131,3 +131,5 @@ AERIS/
 ├── CITATION.cff                # One-click scientific citation metadata
 ├── README.md                   # General project overview and NASA Space Apps documentation
 └── LICENSE                     # Full legal text of the CC BY 4.0 & MIT Dual Licensing
+
+**Note.**Because lack of time We decided to simplified our repository structure in only one file with code, a link to our landing page and our Social Media. In order to keep this structure and have a clear way to keep developing AERIS.
