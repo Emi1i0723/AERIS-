@@ -1,0 +1,21 @@
+# Configuración privada
+.env
+.env.*
+!.env.example
+
+# Datos y archivos locales
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+logs/
+*.log
+
+# Entorno Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Respaldos
+mqtt_respaldo_*/
