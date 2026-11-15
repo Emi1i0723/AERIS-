@@ -131,6 +131,7 @@ AERIS/
 ├── CITATION.cff                # One-click scientific citation metadata
 ├── README.md                   # General project overview and NASA Space Apps documentation
 └── LICENSE                     # Full legal text of the CC BY 4.0 & MIT Dual Licensing
+
 ---
 
 **Note.**Because lack of time We decided to simplified our repository structure in only one file with code, a link to our
